@@ -543,23 +543,450 @@
 
 
 # Context Engineering
+## 1. Foundations of Context Engineering
 
-### Context Construction
+### Introduction to Context Engineering
+* What is Context Engineering
+* Context Engineering vs Prompt Engineering
+* Why Context Matters More Than Prompts
+* Components of Context
+* Context Lifecycle
+* Context Quality Principles
 
-- Retrieval Context
-- Memory Context
-- Tool Context
+### Understanding Context Windows
+* Context Window Fundamentals
+* Token Budget Management
+* Effective Context Length
+* Attention Distribution
+* Context Saturation
+* Context Overflow
+* Lost-in-the-Middle Problem
+* Recency Bias
+* Primacy Bias
 
-### Context Compression
+### Context Design Principles
+* Relevance
+* Completeness
+* Freshness
+* Accuracy
+* Consistency
+* Minimality
+* Explainability
 
-- Summarization
-- Context Pruning
-- Reranking
 
-### Long Context
+## 2. Context Construction
 
-- Long Context Models
-- Sliding Window Retrieval
+### Context Assembly
+
+#### Context Sources
+* User Input
+* System Instructions
+* Conversation History
+* Retrieved Documents
+* Tool Results
+* Memory Systems
+* External APIs
+* Knowledge Bases
+
+### Context Composition
+
+#### Context Layers
+* System Context
+* User Context
+* Retrieval Context
+* Memory Context
+* Tool Context
+* Session Context
+* Execution Context
+
+### Context Ordering
+
+#### Ordering Strategies
+* Relevance First
+* Chronological
+* Hierarchical
+* Priority Based
+* Hybrid Ordering
+
+### Context Packaging
+
+#### Packaging Formats
+* Raw Context
+* Structured Context
+* JSON Context
+* XML Context
+* Metadata-Enriched Context
+
+
+
+## 3. Retrieval Context Engineering
+
+### Retrieval Fundamentals
+
+#### Retrieval Strategies
+* Keyword Retrieval
+* Semantic Retrieval
+* Hybrid Retrieval
+* Metadata Retrieval
+* Graph Retrieval
+
+### Query Construction
+
+#### Query Optimization
+* Query Expansion
+* Query Rewriting
+* Query Decomposition
+* Multi-Query Retrieval
+* Step-Back Retrieval
+
+### Retrieval Pipelines
+* Single Stage Retrieval
+* Multi-Stage Retrieval
+* Hierarchical Retrieval
+* Cascading Retrieval
+* Multi-Hop Retrieval
+* Recursive Retrieval
+
+### Document Selection
+
+#### Chunk Selection
+* Top-K Retrieval
+* Adaptive Retrieval
+* Dynamic Retrieval
+
+
+
+## 4. Chunking Strategies
+### Chunking Fundamentals
+* Fixed Chunking
+* Semantic Chunking
+* Recursive Chunking
+* Hierarchical Chunking
+* Document-Aware Chunking
+* Structure-Aware Chunking
+* Sentence-Based Chunking
+* Paragraph-Based Chunking
+* Section-Based Chunking
+
+### Chunk Optimization
+* Chunk Size Selection
+* Chunk Overlap
+* Chunk Metadata
+* Chunk Linking
+* Parent-Child Chunks
+
+
+## 5. Memory Context Engineering
+
+### Memory Fundamentals
+#### Memory Types
+* Short-Term Memory
+* Long-Term Memory
+* Working Memory
+* Episodic Memory
+* Semantic Memory
+* Procedural Memory
+
+### Session Memory
+* Conversation History
+* Session State
+* Interaction Tracking
+
+### Persistent Memory
+* User Profiles
+* Preferences
+* Learned Facts
+* Behavioral Memory
+
+### Memory Retrieval
+* Memory Search
+* Memory Ranking
+* Memory Summarization
+* Memory Consolidation
+* Memory Decay
+* Memory Refresh
+
+
+## 6. Tool Context Engineering
+### Tool Context Fundamentals
+* Tool Outputs as Context
+* Tool Result Injection
+* Tool State Management
+* Tool Metadata Management
+
+### Tool Result Optimization
+* Filtering
+* Aggregation
+* Normalization
+* Formatting
+* Deduplication
+
+### Multi-Tool Context
+* Tool Fusion
+* Tool Chaining
+* Tool Arbitration
+* Tool Prioritization
+
+
+## 7. Conversation Context Engineering
+### Chat History Management
+* Full History
+* Rolling Window
+* Sliding Window
+* Selective Retention
+* Event-Based Retention
+
+### Conversation State
+* Dialogue State Tracking
+* Intent Tracking
+* Goal Tracking
+* Task Tracking
+* User Preference Tracking
+
+### Multi-Turn Context
+* Context Carryover
+* Context Refresh
+* Context Repair
+
+
+## 8. Context Compressio*
+### Compression Fundamentals
+* Lossless Compression
+* Lossy Compression
+
+### Summarization Techniques
+* Extractive Summarization
+* Abstractive Summarization
+* Recursive Summarization
+* Hierarchical Summarization
+* Running Summaries
+
+### Compression Strategies
+* Semantic Compression
+* Context Distillation
+* Fact Extraction
+* Information Consolidation
+* Redundancy Removal
+
+
+## 9. Context Pruning
+### Pruning Fundamentals
+* Token-Based Pruning
+* Relevance-Based Pruning
+* Importance-Based Pruning
+* Age-Based Pruning
+* Confidence-Based Pruning
+
+### Context Filtering
+* Duplicate Removal
+* Noise Removal
+* Irrelevant Content Removal
+* Contradictory Context Removal
+
+### Dynamic Pruning
+* Adaptive Pruning
+* Query-Aware Pruning
+* Task-Aware Pruning
+
+
+## 10. Context Ranking & Reranking
+### Ranking Fundamentals
+* Relevance Ranking
+* Semantic Ranking
+* Similarity Ranking
+* Diversity Ranking
+
+### Reranking Techniques
+* Cross Encoder Reranking
+* LLM Reranking
+* Hybrid Reranking
+* Multi-Stage Reranking
+
+### Context Prioritization
+* Importance Scoring
+* Utility Scoring
+* Freshness Scoring
+* Trust Scoring
+
+
+
+## 11. Long Context Engineering
+### Long Context Fundamentals
+* Large Context Windows
+* Effective Context Utilization
+* Context Dilution
+* Context Saturation
+* Long Context Failure Modes
+
+### Long Context Strategies
+* Sliding Window Retrieval
+* Hierarchical Context
+* Context Partitioning
+* Context Chunk Routing
+* Progressive Retrieval
+* Recursive Retrieval
+* Layered Retrieval
+
+### Long Context Optimization
+* Context Anchoring
+* Context Positioning
+* Retrieval Refreshing
+* Memory Compression
+
+
+## 12. Long Context Models
+### Architecture Fundamentals
+* Transformer Limitations
+* Sparse Attention
+* Linear Attention
+* Memory-Augmented Attention
+* Retrieval-Augmented Attention
+
+### Model Categories
+* Standard Context Models
+* Extended Context Models
+* Infinite Context Architectures
+* Streaming Context Architectures
+
+### Long Context Evaluation
+* Needle-in-a-Haystack Testing
+* Recall Evaluation
+* Long Range Reasoning Tests
+
+
+## 13. Context Routing
+### Routing Fundamentals
+* Context Selection
+* Context Classification
+* Context Routing Policies
+
+### Dynamic Routing
+* Query-Aware Routing
+* Task-Aware Routing
+* User-Aware Routing
+* Intent-Aware Routing
+
+### Multi-Source Routing
+* Memory Routing
+* Retrieval Routing
+* Tool Routing
+* Knowledge Base Routing
+
+
+## 14. Multi-Source Context Fusion
+### Fusion Fundamentals
+* Retrieval + Memory Fusion
+* Retrieval + Tool Fusion
+* Memory + Tool Fusion
+* Multi-Modal Fusion
+
+### Conflict Resolution
+* Contradiction Detection
+* Confidence Resolution
+* Source Prioritization
+* Truth Arbitration
+
+### Context Merging
+* Deduplication
+* Consolidation
+* Context Synthesis
+
+
+## 15. Context Quality Management
+### Context Quality Metrics
+* Relevance
+* Coverage
+* Freshness
+* Accuracy
+* Consistency
+* Diversity
+* Utility
+
+### Context Validation
+* Fact Validation
+* Source Validation
+* Context Consistency Checks
+* Contradiction Detection
+
+
+## 16. Context Security
+### Secure Context Construction
+* Sensitive Data Filtering
+* PII Removal
+* Data Sanitization
+* Access Control
+
+### Context Attacks
+* Context Poisoning
+* Retrieval Poisoning
+* Memory Poisoning
+* Indirect Prompt Injection
+* Retrieval-Based Prompt Injection
+
+### Defensive Context Engineering
+* Context Isolation
+* Source Verification
+* Context Validation
+* Trust Scoring
+
+
+## 17. Context Evaluation
+### Evaluation Fundamentals
+* Offline Evaluation
+* Online Evaluation
+* Human Evaluation
+* Automated Evaluation
+
+### Retrieval Evaluation
+* Precision
+* Recall
+* MRR
+* NDCG
+* Hit Rate
+
+### Context Evaluation Metrics
+* Relevance Score
+* Coverage Score
+* Freshness Score
+* Context Utility Score
+* Grounding Score
+
+### Failure Analysis
+* Missing Context
+* Incorrect Context
+* Redundant Context
+* Hallucination Root Cause Analysis
+
+
+## 18. Advanced Context Engineering Patterns
+
+### Context Caching
+* Retrieval Caching
+* Memory Caching
+* Semantic Caching
+
+### Context Distillation
+### Context Graphs
+### Knowledge Graph Context
+### Context Hierarchies
+### Context Templates
+### Dynamic Context Generation
+### Self-Improving Context Systems
+### Adaptive Context Systems
+### Agentic Context Management
+
+
+## Most overlooked Context Engineering topics are:
+* Context Routing
+* Multi-Source Context Fusion
+* Context Ranking & Reranking
+* Context Ordering Strategies
+* Context Quality Evaluation
+* Context Compression Architectures
+* Memory Consolidation
+* Context Conflict Resolution
+* Context Anchoring
+* Context Security & Poisoning Defense
 
 
 # Model Calling
@@ -585,5 +1012,5 @@
 - Event Streaming
 
 
----
+
 
