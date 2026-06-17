@@ -1,10 +1,13 @@
 # GenAI
 
+**Table of content**
+- [Prompt Engineering](#prompt-engineering)
+- [Context Engineering](#context-engineering)
+- [Model Calling](#model-calling)
+
 # Prompt Engineering
 ## 1. Foundations of Prompt Engineering
-<details>
-<summary> <strong> Introduction to Prompt Engineering </strong></summary>
-
+### Introduction to Prompt Engineering 
 * What is Prompt Engineering
 * Evolution of Prompt Engineering
 * Prompt vs Instruction
@@ -12,11 +15,8 @@
 * Components of Effective Prompts
 * Prompt Design Principles
 * Understanding Prompt Intent
-</details>
 
-<details>
-<summary> <strong>LLM Interaction Fundamentals </strong></summary>
-
+### LLM Interaction Fundamentals 
 * How Models Interpret Prompts
 * Tokenization and Prompt Impact
 * Context Windows
@@ -26,11 +26,8 @@
 * Positional Bias
 * Recency Bias
 * Lost-in-the-Middle Effect
-</details>
 
-<details>
-<summary> <strong> Model Configuration & Output Parameters </strong></summary>
-
+### Model Configuration & Output Parameters 
 * Temperature
 * Top-P
 * Top-K
@@ -44,24 +41,16 @@
 * Deterministic Outputs
 * Sampling Strategies
 * Parameter Tuning Techniques
-</details>
 
 ## 2. Core Prompt Construction
-
-<details>
-<summary> <strong> Instruction Design </strong></summary>
-
+### Instruction Design 
 * Direct Instructions
 * Explicit Instructions
 * Constraint-Based Instructions
 * Multi-Step Instructions
 * Hierarchical Instructions
-</details>
 
-
-<details>
-<summary> <strong> Prompt Structure </strong></summary>
-
+## Prompt Structure 
 * Goal Definition
 * Context Definition
 * Input Definition
@@ -69,81 +58,56 @@
 * Constraints
 * Examples
 * Success Criteria
-</details>
 
-<details>
-<summary> <strong> Prompt Formatting </strong></summary>
-
+### Prompt Formatting 
 * Plain Text Prompts
 * Structured Prompts
 * XML Prompting
 * JSON Prompting
 * YAML Prompting
 * Markdown Prompting
-</details>
 
-<details>
-<summary> <strong> Delimiter Techniques </strong></summary>
-
+### Delimiter Techniques 
 * Triple Quotes
 * XML Tags
 * Markdown Blocks
 * Custom Delimiters
 * Nested Delimiters
-</details>
 
 ## 3. Basic Prompting Techniques
-
-<details>
-<summary> <strong> Zero-Shot Prompting </strong></summary>
-
+### Zero-Shot Prompting 
 #### Variations
-
 * Instruction Only Prompting
 * Constraint Prompting
 * Role-Based Zero Shot
-</details>
 
 
-<details>
-<summary> <strong> One-Shot Prompting </strong></summary>
-
+### One-Shot Prompting 
 #### Variations
-
 * Demonstration Prompting
 * Example-Based Prompting
-</details>
 
-<details>
-<summary> <strong> Few-Shot Prompting </strong></summary>
-
+### Few-Shot Prompting 
 #### Example Selection
-
 * Static Examples
 * Dynamic Examples
 * Retrieval-Based Examples
 * Similarity-Based Examples
 
 #### Example Ordering
-
 * Best Example First
 * Progressive Complexity
 * Contrastive Examples
-</details>
 
 ## 4. Context-Oriented Prompting
 
-<details>
-<summary> <strong> Context Prompting </strong></summary>
-
+### Context Prompting 
 #### Context Types
-
 * Domain Context
 * Business Context
 * Historical Context
 * User Context
 * Task Context
-</details>
 
 ### Context Injection
 ### Context Layering
@@ -159,16 +123,12 @@
 
 ### System Instruction Prompting
 
-<details>
-<summary> <strong> Persona Prompting </strong></summary>
-
+### Persona Prompting 
 #### Persona Types
-
 * Professional Personas
 * Expert Personas
 * Domain Personas
 * Fictional Personas
-</details>
 
 ### Role Prompting
 ### Multi-Role Prompting
@@ -178,55 +138,38 @@
 
 ## 6. Output Control Techniques
 
-<details>
-<summary> <strong> Output Formatting </strong></summary>
-
+### Output Formatting 
 #### Structured Outputs
-
 * JSON Mode
 * XML Outputs
 * YAML Outputs
 * CSV Outputs
 * Markdown Outputs
-</details>
 
-<details>
-<summary> <strong> Style Control </strong></summary>
-
+### Style Control 
 * Tone Prompting
 * Voice Prompting
 * Writing Style Prompting
 * Formality Control
 * Creativity Control
-</details>
 
-<details>
-<summary> <strong> Length Control </strong></summary>
-
+### Length Control 
 * Summary Prompting
 * Detailed Response Prompting
 * Token Budget Prompting
-</details>
 
-<details>
-<summary> <strong> Output Constraints </strong></summary>
-
+### Output Constraints 
 * Schema Constraints
 * Rule Constraints
 * Validation Constraints
-</details>
 
 ## 7. Reasoning Prompting Techniques
 
-<details>
-<summary> <strong> Chain of Thought (CoT) </strong></summary>
-
+### Chain of Thought (CoT) 
 #### Variants
-
 * Standard CoT
 * Zero-Shot CoT
 * Few-Shot CoT
-</details>
 
 ### Step-by-Step Prompting
 ### Decomposition Prompting
@@ -242,15 +185,11 @@
 
 ## 8. Advanced Reasoning Frameworks
 
-<details>
-<summary> <strong> Tree of Thoughts (ToT) </strong></summary>
-
+### Tree of Thoughts (ToT) 
 #### Components
-
 * Thought Generation
 * Thought Evaluation
 * Search Strategies
-</details>
 
 ### Graph of Thoughts (GoT)
 ### Self-Consistency Prompting
@@ -260,15 +199,11 @@
 ### Program of Thoughts (PoT)
 ### Skeleton of Thoughts (SoT)
 
-<details>
-<summary> <strong> ReAct Prompting </strong></summary>
-
+### ReAct Prompting 
 #### Components
-
 * Reasoning
 * Action
 * Observation
-</details>
 
 ### Reflexion
 ### Self-Refine
@@ -279,15 +214,11 @@
 
 ## 9. Prompt Chaining & Workflow Prompting
 
-<details>
-<summary> <strong> Prompt Chaining </strong></summary>
-
+### Prompt Chaining 
 #### Types
-
 * Linear Chaining
 * Branching Chaining
 * Recursive Chaining
-</details>
 
 ### Sequential Prompting
 ### Pipeline Prompting
@@ -302,48 +233,42 @@
 
 
 ## 10. Meta Prompting
-
-### Meta Prompting Fundamentals
-### Prompt Generation Prompting
-### Prompt Optimization Prompting
-### Prompt Critique Prompting
-### Prompt Self-Improvement
-### Prompt Rewriting
-### Prompt Mutation
-### Prompt Evolution
-### Prompt Search
-### Automatic Prompt Generation
-### Automatic Prompt Refinement
+* Meta Prompting Fundamentals
+* Prompt Generation Prompting
+* Prompt Optimization Prompting
+* Prompt Critique Prompting
+* Prompt Self-Improvement
+* Prompt Rewriting
+* Prompt Mutation
+* Prompt Evolution
+* Prompt Search
+* Automatic Prompt Generation
+* Automatic Prompt Refinement
 
 
 ## 11. Structured Output Engineering
-
-### JSON Mode
-### Function Calling
-### Tool Calling
-### Schema Enforcement
-### Response Validation
-### Typed Outputs
-### Structured Extraction
-### Information Extraction Prompting
-### Data Transformation Prompting
-### Constrained Generation
-### Grammar-Constrained Prompting
+* JSON Mode
+* Function Calling
+* Tool Calling
+* Schema Enforcement
+* Response Validation
+* Typed Outputs
+* Structured Extraction
+* Information Extraction Prompting
+* Data Transformation Prompting
+* Constrained Generation
+* Grammar-Constrained Prompting
 
 
 ## 12. Multi-Modal Prompting
 
-<details>
-<summary> <strong> Text-to-Image Prompting </strong></summary>
-
+### Text-to-Image Prompting 
 #### Components
-
 * Subject
 * Style
 * Composition
 * Lighting
 * Camera Controls
-</details>
 
 ### Image Understanding Prompting
 ### Image Analysis Prompting
@@ -367,59 +292,46 @@
 ### Task Routing Prompting
 ### Autonomous Agent Prompting
 
-<details>
-<summary> <strong> Multi-Agent Prompting </strong></summary>
-
+### Multi-Agent Prompting 
 #### Agent Patterns
-
 * Planner Agent
 * Executor Agent
 * Reviewer Agent
 * Critic Agent
 * Debate Agent
-</details>
 
 
 ## 14. Prompt Optimization Techniques
-### Prompt Tuning
-### Prompt Compression
-### Prompt Simplification
-### Prompt Expansion
-### Prompt Distillation
-### Prompt Ensembles
-### Contrastive Prompting
-### Comparative Prompting
-### A/B Prompt Testing
-### Prompt Benchmarking
-### Prompt Performance Analysis
+* Prompt Tuning
+* Prompt Compression
+* Prompt Simplification
+* Prompt Expansion
+* Prompt Distillation
+* Prompt Ensembles
+* Contrastive Prompting
+* Comparative Prompting
+* A/B Prompt Testing
+* Prompt Benchmarking
+* Prompt Performance Analysis
 
 
 ## 15. Adversarial Prompting
-
 ### Adversarial Prompt Engineering
 
-<details>
-<summary> <strong> Jailbreaking Techniques </strong></summary>
-
+### Jailbreaking Techniques 
 #### Common Attacks
-
 * Roleplay Attacks
 * Instruction Override Attacks
 * Translation Attacks
 * Encoding Attacks
 * Multi-Step Jailbreaks
-</details>
 
-<details>
-<summary> <strong> Prompt Injection </strong></summary>
-
+### Prompt Injection 
 #### Types
-
 * Direct Injection
 * Indirect Injection
 * Context Injection
 * Tool Injection
-</details>
 
 ### Prompt Leakage
 ### Prompt Extraction
@@ -427,33 +339,29 @@
 
 
 ## 16. Defensive Prompt Engineering
-### Defensive Prompt Design
-### Guardrail Prompting
-### Constitutional Prompting
-### Input Validation Prompting
-### Output Validation Prompting
-### Instruction Hierarchies
-### Prompt Isolation
-### Safety Prompting
-### Alignment Prompting
-### Robust Prompt Design
+* Defensive Prompt Design
+* Guardrail Prompting
+* Constitutional Prompting
+* Input Validation Prompting
+* Output Validation Prompting
+* Instruction Hierarchies
+* Prompt Isolation
+* Safety Prompting
+* Alignment Prompting
+* Robust Prompt Design
 
 
 ## 17. Prompt Evaluation
 
 ### Prompt Testing Fundamentals
 
-<details>
-<summary> <strong> Evaluation Metrics </strong></summary>
-
+### Evaluation Metrics 
 #### Quality Metrics
-
 * Accuracy
 * Relevance
 * Completeness
 * Consistency
 * Robustness
-</details>
 
 ### Human Evaluation
 ### Rubric-Based Evaluation
@@ -478,53 +386,48 @@
 ### Monitoring
 ### Maintenance
 
-<details>
-<summary> <strong> Retirement </strong></summary>
-
+### Retirement 
 #### Governance
-
 * Prompt Documentation
 * Prompt Cataloging
 * Prompt Reusability
 * Prompt Standards
 * Prompt Auditing
-</details>
 
 
 ## 19. Prompt Engineering Frameworks & Libraries
-### DSPy
-### Promptfoo
-### PromptLayer
-### Promptmetheus
-### DeepEval
-### OpenAI Evals
-### Braintrust
-### LangSmith
-### TruLens
-### Ragas
-### Phoenix
-### LangFuse
+* DSPy
+* Promptfoo
+* PromptLayer
+* Promptmetheus
+* DeepEval
+* OpenAI Evals
+* Braintrust
+* LangSmith
+* TruLens
+* Ragas
+* Phoenix
+* LangFuse
 
 
 ## 20. Emerging & Research Topics
-### Soft Prompting
-### Prefix Prompting
-### Prompt Tuning
-### P-Tuning
-### Automatic Prompt Optimization
-### Self-Improving Prompts
-### Prompt Transferability
-### In-Context Learning
-### Test-Time Compute Prompting
-### Reasoning-Augmented Prompting
-### Adaptive Prompting
-### Dynamic Prompting
-### Personalized Prompting
-### Prompt Ensembles
+* Soft Prompting
+* Prefix Prompting
+* Prompt Tuning
+* P-Tuning
+* Automatic Prompt Optimization
+* Self-Improving Prompts
+* Prompt Transferability
+* In-Context Learning
+* Test-Time Compute Prompting
+* Reasoning-Augmented Prompting
+* Adaptive Prompting
+* Dynamic Prompting
+* Personalized Prompting
+* Prompt Ensembles
 
----
 
-### Optional
+## Optional
 * Least-to-Most Prompting
 * Program of Thoughts (PoT)
 * Skeleton of Thoughts (SoT)
@@ -809,7 +712,6 @@
 * Trust Scoring
 
 
-
 ## 11. Long Context Engineering
 ### Long Context Fundamentals
 * Large Context Windows
@@ -991,26 +893,421 @@
 
 # Model Calling
 
-### API Providers
+## 1. Foundations of Model Calling
 
-- OpenAI
-- Anthropic
-- Gemini
-- Open Source Models
+### Introduction to Model Calling
+* What is Model Calling
+* Request → Inference → Response Lifecycle
+* Hosted vs Self-Hosted Models
+* Synchronous vs Asynchronous Inference
+* Stateless vs Stateful Calls
+* Single Turn vs Multi Turn Calls
 
-### Generation Controls
-
-- Temperature
-- Top-P
-- Top-K
-- Frequency Penalty
-- Presence Penalty
-
-### Streaming
-
-- Token Streaming
-- Event Streaming
+### Model Ecosystem Overview
+* Proprietary Models
+* Open Source Models
+* Reasoning Models
+* Multimodal Models
+* Embedding Models
+* Reranker Models
+* Speech Models
+* Image Generation Models
+* Video Generation Models
 
 
+## 2. API Providers
+### OpenAI Models
+#### API Fundamentals
+* Authentication
+* API Keys
+* Organizations
+* Projects
 
+#### Model Families
+* GPT Models
+* Reasoning Models
+* Embedding Models
+* Audio Models
+* Vision Models
+
+### Anthropic Models
+* Claude Model Families
+* API Patterns
+* Thinking Models
+* Extended Thinking
+
+### Gemini Models
+* Gemini Model Families
+* Native Multimodal Features
+* Context Handling
+
+### Other Commercial Providers
+* Cohere
+* Mistral AI
+* Groq
+* Together AI
+* Fireworks AI
+* Cerebras
+* Perplexity
+* DeepSeek
+* xAI
+* AWS Bedrock
+* Azure OpenAI
+* Vertex AI
+
+
+## 3. Open Source Model Calling
+### Open Source Ecosystem
+* Llama
+* Qwen
+* DeepSeek
+* Mistral
+* Gemma
+* Phi
+* Falcon
+* Yi
+* GLM
+
+### Inference Engines
+* vLLM
+* Ollama
+* llama.cpp
+* Text Generation Inference (TGI)
+* SGLang
+* LMDeploy
+* TensorRT-LLM
+* Aphrodite Engine
+
+### Local Model Serving
+* REST APIs
+* OpenAI-Compatible APIs
+* Docker Deployment
+* GPU Deployment
+* CPU Deployment
+
+
+## 4. Request Construction
+### Request Anatomy
+* System Messages
+* User Messages
+* Assistant Messages
+* Tool Messages
+* Developer Messages
+
+### Message Structures
+* Single Message Requests
+* Multi Message Requests
+* Conversation History
+* Context Injection
+
+### Request Parameters
+* Model Selection
+* Token Limits
+* Output Controls
+* Tool Configuration
+
+
+## 5. Generation Controls
+### Sampling Fundamentals
+* Probability Distribution
+* Token Sampling
+* Deterministic Generation
+* Stochastic Generation
+
+### Temperature
+* Low Temperature
+* Medium Temperature
+* High Temperature
+* Temperature Tuning
+* Temperature Failure Modes
+
+### Top-P
+* Nucleus Sampling
+* Top-P Tuning
+* Diversity Control
+
+### Top-K
+* Candidate Filtering
+* Top-K Tuning
+
+### Min-P
+* Probability Threshold Sampling
+
+### Typical-P
+* Typical Sampling
+
+### Repetition Controls
+* Frequency Penalty
+* Presence Penalty
+* Repetition Penalty
+* Anti-Repetition Strategies
+
+### Output Length Controls
+* Max Tokens
+* Min Tokens
+* Stop Sequences
+* EOS Handling
+
+### Randomness Controls
+* Seed
+* Deterministic Outputs
+* Reproducibility
+
+
+## 6. Structured Generation
+### JSON Mode
+* Strict JSON Generation
+* Schema-Based Outputs
+* Nested JSON Structures
+
+### Structured Outputs
+* Typed Outputs
+* Validated Outputs
+* Constrained Outputs
+
+### Grammar-Constrained Decoding
+* JSON Schema Constraints
+* CFG-Based Constraints
+* Regex Constraints
+
+### Output Validation
+* Schema Validation
+* Response Repair
+* Retry Strategies
+
+
+## 7. Tool & Function Calling
+### Tool Calling Fundamentals
+* Tool Definitions
+* Tool Selection
+* Tool Invocation
+* Tool Responses
+
+### Function Calling
+* Function Schemas
+* Parameter Extraction
+* Argument Validation
+* Tool Chaining
+
+### Parallel Tool Calling
+### Sequential Tool Calling
+### Multi-Tool Execution
+
+
+## 8. Streaming
+### Streaming Fundamentals
+* Why Streaming Matters
+* Streaming Architectures
+
+### Token Streaming
+* Incremental Generation
+* Real-Time Display
+* Partial Responses
+
+### Event Streaming
+* Server Sent Events (SSE)
+* WebSocket Streaming
+* HTTP Streaming
+
+### Streaming UX Patterns
+* Typing Effect
+* Progressive Rendering
+* Interruptible Generation
+* Partial Tool Results
+
+### Streaming Error Handling
+* Connection Recovery
+* Stream Cancellation
+* Retry Mechanisms
+
+
+## 9. Multimodal Model Calling
+### Vision Inputs
+* Image Uploads
+* Multiple Images
+* Image URLs
+* Image Preprocessing
+
+### Audio Inputs
+* Speech-to-Text
+* Audio Understanding
+* Audio Analysis
+
+### Video Inputs
+* Video Understanding
+* Frame Processing
+* Temporal Analysis
+
+### Mixed Modal Requests
+* Text + Image
+* Text + Audio
+* Text + Video
+
+
+## 10. Embedding Model Calling
+### Embedding Fundamentals
+* Vector Representations
+* Similarity Search
+
+### Embedding APIs
+* Single Text Embeddings
+* Batch Embeddings
+* Large Document Embeddings
+
+### Embedding Optimization
+* Chunking Impact
+* Embedding Dimensions
+* Storage Considerations
+
+
+## 11. Batch Inference
+### Batch Processing
+* Single Request
+* Batch Requests
+* Bulk Processing
+
+### Asynchronous Jobs
+* Job Submission
+* Job Tracking
+* Job Retrieval
+
+### Large Scale Inference
+* Throughput Optimization
+* Queue Management
+* Parallel Processing
+
+
+## 12. Performance Optimization
+### Latency Optimization
+* Model Selection
+* Request Optimization
+* Context Size Reduction
+
+### Throughput Optimization
+* Request Batching
+* Dynamic Batching
+* Continuous Batching
+
+### Cost Optimization
+* Token Optimization
+* Model Routing
+* Smart Fallbacks
+* Caching
+
+
+## 13. Reliability Engineering
+### Error Handling
+* API Errors
+* Validation Errors
+* Rate Limit Errors
+* Timeout Errors
+* Context Length Errors
+
+### Retry Strategies
+* Fixed Retry
+* Exponential Backoff
+* Circuit Breakers
+
+### Fallback Strategies
+* Provider Fallbacks
+* Model Fallbacks
+* Region Fallbacks
+
+
+## 14. Token Management
+### Token Fundamentals
+* Tokenization
+* Token Counting
+* Context Length
+
+### Token Budgeting
+* Input Budget
+* Output Budget
+* Reserve Tokens
+
+### Cost Calculation
+* Prompt Tokens
+* Completion Tokens
+* Cached Tokens
+
+
+## 15. Model Selection Strategies
+### Model Evaluation
+* Accuracy
+* Latency
+* Cost
+* Context Length
+* Reasoning Capability
+
+### Dynamic Model Routing
+* Task-Based Routing
+* Cost-Based Routing
+* Latency-Based Routing
+* Quality-Based Routing
+
+### Model Comparison
+* Benchmark Analysis
+* A/B Testing
+* Provider Comparison
+
+
+## 16. Security
+### Authentication
+* API Keys
+* OAuth
+* Service Accounts
+
+### Secure Requests
+* Secret Management
+* Credential Rotation
+* Environment Variables
+
+### Data Protection
+* Input Sanitization
+* Output Filtering
+* Sensitive Data Handling
+
+
+## 17. Monitoring & Observability
+### Request Monitoring
+* Success Rate
+* Failure Rate
+* Latency Metrics
+
+### Usage Tracking
+* Token Usage
+* Cost Tracking
+* User Consumption
+
+### Response Monitoring
+* Quality Monitoring
+* Error Analysis
+* Drift Detection
+
+
+## 18. Advanced Inference Techniques
+* Speculative Decoding
+* Prefix Caching
+* KV Cache
+* Prompt Cache
+* Semantic Cache
+* Continuous Batching
+* Paged Attention
+* Dynamic Batching
+* Parallel Decoding
+* Mixture of Experts Routing
+* Reasoning Token Management
+* Test-Time Compute Controls
+
+
+## Optional
+* Request Construction & Message Architecture
+* Structured Generation & Grammar-Constrained Decoding
+* Tool/Function Calling
+* Batch Inference
+* Reliability Engineering
+* Token Management
+* Dynamic Model Routing
+* Observability
+* Advanced Inference Optimizations (KV Cache, Prefix Cache, Continuous Batching, Speculative Decoding)
 
