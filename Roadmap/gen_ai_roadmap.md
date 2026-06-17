@@ -4,6 +4,8 @@
 - [Prompt Engineering](#prompt-engineering)
 - [Context Engineering](#context-engineering)
 - [Model Calling](#model-calling)
+- [Generation Evaluation]()
+- [Observability]()
 
 # Prompt Engineering
 ## 1. Foundations of Prompt Engineering
